@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+
+import InfiniteList from './InfiniteList/InfiniteList'
 
 function App() {
   return (
     <div className="mainBody">
-      <div>Start</div>
+      <InfiniteList />
     </div>
   );
 }
